@@ -47,7 +47,7 @@
     </binding>
     <service name="getAge">
         <port name="AgeServicePort" binding="tns:AgeServicePortBinding">
-            <soap:address location="http://localhost:8080/Age/getAge"/>
+            <soap:address location="http://192.168.99.100:8080/Age/getAge"/>
         </port>
     </service>
 </definitions>
